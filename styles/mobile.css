@@ -1,0 +1,32 @@
+@media (max-width: 400px) {
+
+  .page {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 25px;
+    padding: 15px;
+    padding-bottom: 50px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .qr-code img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: hsl(218, 44%, 22%);
+    margin-top: 20px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+    margin-top: 20px;
+  }
+}
